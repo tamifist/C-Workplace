@@ -18,9 +18,9 @@ namespace ConsoleApplication5
             while (a != b)  // пока не станут равными
 
                {
-                if (a > b)
+                if (a > b)  // которая состоит из меньшего числа и разницы между большим и меньшим числом
                 {
-                    a = a - b;
+                    a = a - b; 
                 }else
                 {
                     b = b - a;
@@ -29,7 +29,7 @@ namespace ConsoleApplication5
             }
 
 
-            Console.WriteLine(a);
+            Console.WriteLine(a); // найденное число
             Console.ReadKey();
 
         }
