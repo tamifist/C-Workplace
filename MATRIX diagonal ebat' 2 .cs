@@ -29,15 +29,15 @@ namespace ConsoleApplication15
             {
                 for (int j = 0; j < m; j++)
                 {
-                    if (j == i)
+                    if (i == j)
                     {
                         sumGD += arr[i, j];
                     }
-                    if (j > i)
+                    if (i < j)
                     {
                         sumHGD += arr[i, j];
                     }
-                    if (j < i)
+                    if (i > j)
                     {
                         sumLGD += arr[i, j];
                     }
